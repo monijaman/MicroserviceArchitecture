@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",  // Base directory for resolving paths
+      "paths": {
+        "@/*": ["*"]       // Alias '@' to point to the './src' folder
+      },
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "moduleResolution": "node",
+      "target": "es6",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "strict": true,
+      "skipLibCheck": true
+    }
+  }
+  
